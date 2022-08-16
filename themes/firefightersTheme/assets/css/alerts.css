@@ -1,0 +1,121 @@
+/*
+Theme name: FirefighterApp
+Author: PukaraIt
+*/
+
+body {
+    background-color: #CE2029;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #921b21;
+    padding: 5px;
+    align-items: center;
+}
+.top-row img {
+    width: 50px;
+    height: 50px;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+a {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.alertsMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    color: black;
+}
+.directions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.direction {
+    margin: 0;
+}
+.assistButton {
+    background: none;
+	border: none;
+    padding: 10px;
+    color: #CE2029;
+    width: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: goldenrod;
+    border-radius: 35%;
+}
+.circleMap {
+    margin: 0;
+    margin-top: 10px;
+    background: none;
+	border: none;
+    padding: 70px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.bottomAlert {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.topLine {
+    height: 100%;
+}
+.topLine p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+}
+.bottomInfo {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #CE2029;
+    background-color: whitesmoke;
+}
+.separator {
+    display: flex;
+    height: 120%;
+    padding: 1px;
+    background-color: #CE2029;
+    color: #CE2029;
+}
+.infoPO {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

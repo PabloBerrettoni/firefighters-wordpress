@@ -1,0 +1,51 @@
+/*
+Theme name: FirefighterApp
+Author: PukaraIt
+*/
+
+body {
+    background-color: #CE2029;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #921b21;
+    padding: 5px;
+    align-items: center;
+}
+.top-row img {
+    width: 50px;
+    height: 50px;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+a {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main-home, .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.main-home img {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+.main-home input {
+    margin: 5px;
+}
